@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = "raichu08/todo-auth"
+        IMAGE_NAME = "raichu08/todo-service"
         IMAGE_TAG = "v${BUILD_NUMBER}"
     }
 
